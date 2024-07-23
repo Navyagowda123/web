@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <Style>
+        img {
+            margin-top: 1vh;
+            width: 166px;
+            height: 58px;
+        }
+
+        .searchbar {
+            margin-left: 40%;
+            margin-top: -6vh;
+            align-items: center;
+            width: 12vh;
+            height: 10vh;
+
+
+        }
+
+        .iframe {
+            width: 700px;
+            height: 400px;
+            margin-top: 10vh;
+            margin-left: 6vh;
+            border-radius: 2vh;
+        }
+
+        .mini1 {
+            margin-left: 6vh;
+        }
+
+        .like {
+            margin-left: 101vh;
+            margin-top: -8vh;
+            height: 6pc;
+            width: 15pc;
+        }
+
+        .mini2 {
+            margin-left: 160vh;
+            margin-top: -130vh;
+            width: 250px;
+            height: 130px;
+            border-radius: 1pc;
+            float: left;
+        }
+
+        .m2 h3{
+            margin-left: 160vh;
+            margin-top: -101vh;
+            float: left;
+        }
+        
+
+        .mini3 {
+            width: 250px;
+            height: 130px;
+            border-radius: 1pc;
+            float: left;
+            margin-left: 160vh;
+            margin-top: -90vh;
+
+        }
+        .m3 h3{
+            float: left;
+            margin-left: 160vh;
+            margin-top: -62vh;
+        }
+
+        .mini4 {
+            width: 250px;
+            height: 130px;
+            border-radius: 1pc;
+            float: left;
+            margin-left: 160vh;
+            margin-top: -50vh;
+        }
+        .m4 h3{
+            float: left;
+            margin-left: 160vh;
+            margin-top: -22vh;
+        }
+
+        .mini5 {
+            width: 250px;
+            height: 130px;
+            border-radius: 1pc;
+            float: left;
+            margin-left: 160vh;
+            margin-top: -11vh;
+        }
+        .m5 h3{
+            float: left;
+            margin-left: 160vh;
+            margin-top: 1vh;
+        }
+
+
+    </Style>
+</head>
+
+<body>
+    <img src="youtube-logo.jpeg">
+    <div class="searchbar">
+        <input type="text" placeholder="Search" name="search">
+    </div>
+    <div>
+        <iframe class="iframe" src="https://www.youtube.com/embed/W2WFFcJnfm4?si=wluKb4p3fsNOw6hK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="mini1">
+        <h2>Cartoon Videos|English|Yummy Ice Cream for Kids |<br> Cartoon for toddlers | Funny Videos for Babies | BST Live</h2>
+        <div>
+            <h3> CARTOON CHANNEL</h3>
+        </div>
+
+        <div>
+            <img class="like" src="like-dislike-comment-and-share-icon.jpeg">
+        </div>
+    </div>
+    <div class="m2">
+        <p></p>
+        <iframe class="mini2" src="https://www.youtube.com/embed/73qdklAjWSI?si=k3G3YkW_dN97Z4aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <span><h3>Learn Colours with IceCreams and colours|English|Cartoon</h3></span>
+       
+    </div>
+    
+    <div class="m3">
+        <span><h3>Learn Alphabets|ABC Alphabet Songs with Sounds for Children</h3></span>
+        <iframe class="mini3" src="https://www.youtube.com/embed/hq3yfQnllfQ?si=pWbS-8CAlvWXqWPB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+    </div>
+    <div class="m4">
+        <span><h3>Phonic Sounds|Roma and Diana learn the alphabet|ABC song
+        </h3></span>
+        <iframe  class="mini4" src="https://www.youtube.com/embed/NvdUSZyCGRs?si=ynFiIb9owOrWf8b-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <div class="m5">
+       
+        <iframe class="mini5" src="https://www.youtube.com/embed/ViaUUjeXGsE?si=gT2oST264JU5vvSX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+        <span><h3>Oh no! She's NOT A Teacher | Stranger Danger | Kids Cartoons | Police Cartoon | Sheriff Labrador</h3></span>
+    </div>
+
+</body>
+
+</html>
