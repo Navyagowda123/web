@@ -1,0 +1,42 @@
+HTML FILE----->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="new1.js"></script>
+</head>
+<body>
+    <p id="id1">Morning</p>
+    <p id="id2">Hiiii</p>
+    <p id="id3">Hello</p>
+
+    <p class="class1">one</p>
+    <p class="class1">Two</p>
+    <p class="class1">Three</p>
+
+    <button onclick="clickme()">Click Me</button>
+    
+</body>
+</html>
+
+
+
+CSS FILE-------->
+
+function clickme()
+{
+    document.getElementById("id1").style.backgroundColor='purple'
+    document.getElementById("id2").style.backgroundColor='yellow'
+
+    var className=document.getElementsByClassName('class1')
+    console.log(className[0].innerHTML);
+
+    const abcd=document.getElementsByTagName('p')
+    abcd[1].innerText=abcd[1].innerText +' & Good Evening'
+    
+    
+
+}
